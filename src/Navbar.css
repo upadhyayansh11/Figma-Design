@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  background-color: black;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  position: relative;
+  left: 700px;
+  color: white;
+  margin: 0.8rem 3.5rem 0 0.8rem;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-brand {
+  font-family: "IM Fell Great Primer SC", serif;
+  /* margin-left: 4rem; */
+  color: white;
+  text-decoration: none;
+}
+.navbar-brand:hover {
+  color: white;
+}
+
+.home {
+  color: rgba(200, 36, 236, 1);
+}
+.sign-up {
+  border-radius: 5px;
+  background: linear-gradient(99.05deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+}

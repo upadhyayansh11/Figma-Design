@@ -1,0 +1,71 @@
+.Clients {
+  position: relative;
+  bottom: 800px;
+  z-index: 1;
+}
+
+.client {
+  margin-top: 3rem;
+  margin-left: 5rem;
+  text-align: center;
+  align-items: center;
+
+  height: 245px;
+
+  border-radius: 7.35px 0px 0px 0px;
+  border: 1.07px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #aa14f0 -42.58%,
+    rgba(170, 20, 240, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(185, 54, 245, 0) 100%
+  );
+}
+
+.heading3 {
+  color: white;
+  position: relative;
+  top: 50px;
+  font-weight: 900;
+  font-family: "Orbitron", sans-serif;
+}
+
+.para3 {
+  position: relative;
+  margin: 3.5rem;
+  align-items: center;
+  margin-top: 1rem;
+  color: white;
+  width: 314.41px;
+  height: 45px;
+  left: 480px;
+  top: 50px;
+  gap: 0px;
+  opacity: 1;
+  font-family: sans-serif;
+  font-size: medium;
+  opacity: 0.3;
+  font-weight: 300;
+}
+
+.reviews {
+  position: absolute;
+  left: 300px;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.review {
+  position: relative;
+  left: 20px;
+  font-size: 4px;
+  bottom: 90px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+}

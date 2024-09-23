@@ -1,0 +1,32 @@
+.cards {
+  position: relative;
+  bottom: 340px;
+  margin-left: 5rem;
+}
+.img2 {
+  position: relative;
+  margin-left: 1rem;
+  top: 100px;
+}
+.det {
+  position: relative;
+  left: 760px;
+  bottom: 130px;
+  width: 600px;
+  color: white;
+}
+.heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: larger;
+}
+.para {
+  font-weight: 200;
+  opacity: 0.4;
+}
+.temp {
+  position: relative;
+  bottom: 400px;
+  height: 150px;
+  margin: 5rem;
+  width: 1200px;
+}

@@ -1,0 +1,24 @@
+.headsets {
+  position: relative;
+  bottom: 400px;
+  margin-left: 5rem;
+  width: 700px;
+}
+
+.headsets .row {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+.row img {
+  width: 100%;
+
+  object-fit: cover;
+}
+.heading2 {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}

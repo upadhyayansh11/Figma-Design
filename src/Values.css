@@ -1,0 +1,28 @@
+.value {
+  position: relative;
+  bottom: 600px;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+.heading4 {
+  color: white;
+  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+}
+.para4 {
+  color: white;
+  opacity: 0.4;
+  font-weight: 200;
+  font-size: medium;
+}
+.stamps {
+  margin-top: 3rem;
+  position: relative;
+  left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.para5 {
+  color: white;
+  font-size: xx-small;
+}
