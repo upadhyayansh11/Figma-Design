@@ -1,4 +1,4 @@
-import Cards from "./Cards.Jsx";
+import Cards from "./Cards";
 import Client from "./Client";
 import Headset from "./Headsets";
 import MainContent from "./MainContent";
