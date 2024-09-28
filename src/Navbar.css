@@ -1,11 +1,9 @@
 .container {
   position: relative;
-  background-color: black;
-  z-index: 1;
 }
 
 .navbar {
-  background-color: black !important;
+  background-color: transparent !important;
 }
 
 .nav-link {

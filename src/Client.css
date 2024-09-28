@@ -3,15 +3,12 @@
   bottom: 800px;
   z-index: 1;
 }
-
 .client {
   margin-top: 3rem;
   margin-left: 5rem;
   text-align: center;
   align-items: center;
-
   height: 245px;
-
   border-radius: 7.35px 0px 0px 0px;
   border: 1.07px 0px 0px 0px;
   opacity: 0px;

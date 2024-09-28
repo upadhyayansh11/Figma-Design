@@ -40,20 +40,8 @@ body {
   bottom: 1900px;
   z-index: 1;
 }
-/* .grad5 {
+.grad5 {
   position: absolute;
-  z-index: 1;
-  width: 572.95px;
-  height: 552.48px;
-  top: 210.13px;
   left: 1300px;
-  /* background: radial-gradient(
-    37.26% 37.26% at 50% 50%,
-    rgba(170, 20, 240, 0.31) 0%,
-    rgba(170, 20, 240, 0) 100%
-  ); */
-/* position: absolute;
-  left: 1400px;
-  z-index: 1; 
+  top: 2500px;
 }
-*/

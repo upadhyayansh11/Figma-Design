@@ -3,6 +3,7 @@
   bottom: 600px;
   margin-left: 5rem;
   margin-top: 4rem;
+  z-index: 2;
 }
 .heading4 {
   color: white;
