@@ -1,4 +1,8 @@
 import "./Client.css";
+import image5 from "./Images/Group 25.png";
+import image6 from "./Images/Group 27.png";
+import image7 from "./Images/Visuals.png";
+import image8 from "./Images/Group 26.png";
 export default function Client() {
   return (
     <div className="container">
@@ -12,14 +16,14 @@ export default function Client() {
         </div>
         <div className="reviews">
           <div>
-            <img src="src/Images/Group 25.png"></img>
+            <img src={image5}></img>
           </div>
           <div>
-            <img src="src/Images/Group 27.png"></img>
-            <img className="review" src="src/Images/Visuals.png"></img>
+            <img src={image6}></img>
+            <img className="review" src={image7}></img>
           </div>
           <div>
-            <img src="src/Images/Group 26.png"></img>
+            <img src={image8}></img>
           </div>
         </div>
       </div>

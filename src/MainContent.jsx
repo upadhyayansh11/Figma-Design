@@ -1,4 +1,7 @@
 import "./MainContent.css";
+import image13 from "./Images/123.png";
+import image14 from "./Images/Group 1.png";
+import image15 from "./Images/Ellipse5.png";
 
 export default function () {
   return (
@@ -15,11 +18,11 @@ export default function () {
           <a className="get-it ">Get it Now</a>&nbsp;&nbsp;&nbsp;
           <a>Explore Device</a>
           <div>
-            <img className="img" src="src/Images/123.png"></img>
+            <img className="img" src={image13}></img>
             <div className="people">
-              <img src="src/Images/Group 1.png"></img>&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src={image14}></img>&nbsp;&nbsp;&nbsp;&nbsp;
               <div className="detail">
-                <img src="src/Images/Ellipse5.png"></img>&nbsp;&nbsp;
+                <img src={image15}></img>&nbsp;&nbsp;
                 <p className="para2">400k people online</p>
               </div>
             </div>

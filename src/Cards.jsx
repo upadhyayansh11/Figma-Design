@@ -1,10 +1,14 @@
 import "./Cards.css";
+import image1 from "./Images/Card1.png";
+import image2 from "./Images/card2.png";
+import image3 from "./Images/34.png";
+
 export default function Cards() {
   return (
     <div className="Card-Det">
       <div className="cards">
-        <img className="img1" src="src/Images/Card1.png"></img>
-        <img className="img2" src="src/Images/card2.png"></img>
+        <img className="img1" src={image1}></img>
+        <img className="img2" src={image2}></img>
         <div className="det">
           <h3 className="heading">New Experience In Playing Game</h3>
           <p className="para">
@@ -17,7 +21,7 @@ export default function Cards() {
           </a>
         </div>
       </div>
-      <img className="temp" src="src/Images/34.png"></img>
+      <img className="temp" src={image3}></img>
     </div>
   );
 }
